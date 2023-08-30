@@ -4,12 +4,8 @@
     <projectFile>Algoritms/Algoritms.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="699a4824-92fe-4d82-be5f-505e43b9e434" name="Changes" comment="rename">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.Algoritms/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Algorithms/Search.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/Algorithms.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Algorithms.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/BinarySearch.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms/Program.cs" afterDir="false" />
+    <list default="true" id="699a4824-92fe-4d82-be5f-505e43b9e434" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Algoritms/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Algoritms/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +63,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1693239510805</updated>
-      <workItem from="1693239513971" duration="5241000" />
+      <workItem from="1693239513971" duration="6475000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1693239589481</created>
@@ -83,7 +79,14 @@
       <option name="project" value="LOCAL" />
       <updated>1693240954343</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Бинарный поиск в простой и в рекурсивной вариации">
+      <created>1693246722859</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1693246722859</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -106,25 +109,7 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="init" />
     <MESSAGE value="rename" />
-    <option name="LAST_COMMIT_MESSAGE" value="rename" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Algorithms/Search.cs</url>
-          <line>32</line>
-          <properties documentPath="C:\Users\Denis\Desktop\Algoritms\Algorithms\Search.cs" initialLine="32" containingFunctionPresentation="method 'BinarySearch'">
-            <startOffsets>
-              <option value="953" />
-            </startOffsets>
-            <endOffsets>
-              <option value="954" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="8" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="Бинарный поиск в простой и в рекурсивной вариации" />
+    <option name="LAST_COMMIT_MESSAGE" value="Бинарный поиск в простой и в рекурсивной вариации" />
   </component>
 </project>

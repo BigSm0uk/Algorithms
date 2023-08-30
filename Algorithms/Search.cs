@@ -6,7 +6,7 @@ public static class Search
     {
         var high = enumerable.Count - 1;
         var low = 0;
-        while (high > low)
+        while (high >= low)
         {
             var mid = (high + low) / 2;
             var compareResult = comparer.Compare(enumerable[mid], value);
@@ -22,7 +22,6 @@ public static class Search
                     break;
             }
         }
-
         return -1;
     }
 
