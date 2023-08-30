@@ -2,14 +2,14 @@
 
 public static class Selection
 {
-    public static void SelectionSort<T>(T[] array, Comparer<T> comparer)
+    public static void SelectionSort<T>(T[] array, Comparer<T> comparer) where T : IComparable
     {
         for (var i = 0; i < array.Length-1; i++)
         {
             var minIndex = i;
             for (var j = i+1; j < array.Length; j++)
             {
-                if (comparer.Compare(array[minIndex],array[j] ) < 0)
+                if (comparer.Compare(array[minIndex],array[j] ) > 0)
                 {
                     minIndex = j;
                 }
