@@ -4,4 +4,5 @@
     &lt;TestId&gt;xUnit::E7F68E6F-0F0D-4E58-96C5-A57B73F9CEA9::net7.0::Tests.BinarySearchTests.ShouldReturnSuccess&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::E7F68E6F-0F0D-4E58-96C5-A57B73F9CEA9::net7.0::Tests.SortTests.SelectionSort.ShouldReturnSuccess&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
+&lt;/SessionState&gt;</s:String>
+	<s:Boolean x:Key="/Default/UserDictionary/Words/=_041D_043E_0443_0442_0431_0443_043A/@EntryIndexedValue">True</s:Boolean></wpf:ResourceDictionary>
