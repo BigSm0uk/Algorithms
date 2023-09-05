@@ -1,8 +1,8 @@
 ﻿namespace Algorithms.CodeWars;
 
 /*Задача состоит в том, чтобы каждому элементу массива присвоить произведение всех оставшихся членов этого массива
- без использования оператора / с ограничением O(n)*/
-public static class MultiplyArray
+ без использования оператора "/" с ограничением O(n)*/
+public static class ProductExceptSelf
 {
     private static void Main()
     {

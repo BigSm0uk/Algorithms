@@ -2,7 +2,7 @@
 
 namespace Tests;
 
-public class MultiplyArrayTest
+public class ProductExceptSelfTest
 {
     [Fact]
     public void ShouldReturnSuccess()
@@ -11,7 +11,7 @@ public class MultiplyArrayTest
         var arr = new[] { 2, 3, 4, 5 };
         var expected = new[] { 60, 40, 30, 24 };
         //Act
-        var actual = MultiplyArray.Solve(arr);
+        var actual = ProductExceptSelf.Solve(arr);
         //Assert
         Assert.Equivalent(expected, actual);
     }
