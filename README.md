@@ -5,8 +5,9 @@
 ____
 ### Задача с литкода:https://leetcode.com/problems/product-of-array-except-self/
 #### Задача состоит в том, чтобы каждому элементу массива присвоить произведение всех оставшихся членов этого массива без использования оператора "/" с ограничением O(n)
-#### Полное решение находится по пути Algorithms/CodeWars/ProductExceptSelf
 ```
+       public static int[] Solve(int[] arr)
+    {
         var leftArr = new int[arr.Length];
         var rightArr = new int[arr.Length];
         leftArr[0] = 1;
@@ -24,5 +25,7 @@ ____
             arr[i] = leftArr[i] * rightArr[i];
         }
         return arr;
+    }
 ```
 #### Для массива { 1, 2, 3, 4, 5 } ответ будет таким : 120, 60, 40, 30, 24
+____
