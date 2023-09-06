@@ -33,7 +33,7 @@ ____
 ### Необходимо для входного слова, содержащего ошибку, "fosh" найти в словаре то слово, которое пользователь имел ввиду.
 ### Например, в словаре имеются слова {"fish", "fort", "vista"}, необзодимо, чтобы алгоримт вернул слово, наиболее похожее на входное слвово - "fish".
 ### Полное решение находится по пути: Algoritms/WordMatch
-```
+``` cs
  public static string FindMatch(string wrongWord, string[] dictionary)
     {
         var fondedMax = new int[dictionary.Length];
