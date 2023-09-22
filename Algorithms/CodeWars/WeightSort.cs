@@ -12,8 +12,7 @@ public static class WeightSort
     private static string OrderWeight(string str)
     {
         return string.Join(" ", str.Split(" ")
-            .OrderBy(n => n.ToCharArray()
-                .Select(c=>(int)char.GetNumericValue(c)).Sum())
+            .OrderBy(n => n.Select(c => (int)char.GetNumericValue(c)).Sum())
             .ThenBy(n=>n));
     }
     
