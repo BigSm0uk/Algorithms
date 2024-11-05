@@ -1,5 +1,5 @@
 # Привет, я [Денис](https://t.me/BigSm0ukRU) ![](https://github.com/blackcater/blackcater/raw/main/images/Hi.gif) 
-### Студент НИУ МГСУ, 4 курс, тут буду выкладывать решения разного рода задачек на ЯП C#
+### Тут буду выкладывать решения разного рода задачек на ЯП C#
 [![codewars](https://www.codewars.com/users/BigSm0uk/badges/large)](https://www.codewars.com/users/BigSm0uk)
 ![Leetcode Stats](https://leetcard.jacoblin.cool/BigSm0uk/)
 ____
